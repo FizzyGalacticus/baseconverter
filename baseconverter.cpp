@@ -22,11 +22,9 @@ int main(int argc, const char *argv[])
 	if (argc > 2) {
 		auto m = stoi(argv[1]);
 		auto b = stoi(argv[2]);
-		auto n = -1;
 		string newBase = "";
 
 		while(m > 0) {
-			n+=1;
 			newBase += base_chars[m % b];
 			m = m / b;
 		}
