@@ -7,7 +7,7 @@ using std::stoi;
 #include <algorithm>
 using std::reverse;
 
-int main(int argc, char const *argv[])
+int main(int argc, const char *argv[])
 {
 	char base_chars [] = {'0', '1', '2', '3',
 						  '4', '5', '6', '7',
